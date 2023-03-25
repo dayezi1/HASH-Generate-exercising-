@@ -21,7 +21,7 @@ def sha512(s512data):
 print('This is a Hash transverter, it program only supports MD5, SHA256, SHA512 conversion.')
 while True:
     message_1 = input('Please select an algorithm:')
-    if message_1.lower() != 'md5' != 'sha256' != 'sha512':
+    if message_1.lower() != 'md5' and message_1.lower() != 'sha256' and message_1.lower() != 'sha512':
         print('Please enter the correct algorithm name!')
         continue
     else:
